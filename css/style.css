@@ -229,19 +229,13 @@
   color: white;
 }
 
-.pages-btn-black {
+.pages-btn {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
 }
 
-.pages-btn-white {
-  font-size: 14px;
-  font-family: PT Sans Narrow Bold;
-  font-weight: bold;
-  color: black;
-}
 
 .footer-contacts-text {
   font-size: 14px;
