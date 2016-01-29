@@ -1,0 +1,265 @@
+.main-navigation, .user-block {
+  font-size: 16px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.feauters-item-name {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.feauters-item-name {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.feauters-item-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-left-title {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-left-title-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-left-title-btn {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.index-content-right-title {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-right-gallery-btn-prev{
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.index-content-right-gallery-btn-next {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.index-content-left-contact {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-left-contact-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-left-contact-way-btn{
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.index-content-left-contact-feedback-btn {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.index-content-right-title {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-right-title-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-title {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.card-info-status {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.card-info-code {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: #aeaeae;
+}
+
+.card-info-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.card-price-total-btn {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.card-price-buy-btn {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.card-description-into {
+  font-size: 24px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.card-description-into-items {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-brand {
+  font-size: 24px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-brand-item{
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-group {
+  font-size: 24px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-group-item {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.index-content-btn {
+  font-size: 13px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.cards-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.cards-total-btn {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.cards-buy-btn {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.pages-btn-black {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.pages-btn-white {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-contacts-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-social-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-copyright-text {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+}
