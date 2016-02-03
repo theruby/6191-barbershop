@@ -1,3 +1,54 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #005555 url("img/bg-barbershop.jpg") no-repeat 50% 3px;
+  background-size: 1122px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation {
+  width: 780px;
+  float: left;
+/* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+/* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
 .main-navigation, .user-block {
   font-size: 16px;
   font-family: PT Sans Narrow Bold;
@@ -5,25 +56,49 @@
   color: white;
 }
 
-.feauters-item-name {
+.features-item {
+  font-size: 30px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: white;
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.features-item-name {
   font-size: 30px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
 }
 
-.feauters-item-name {
-  font-size: 30px;
-  font-family: PT Sans Narrow Bold;
-  font-weight: bold;
-  color: black;
-}
-
-.feauters-item-text {
+.features-item-text {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
-  color: black;
+  color: white;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  background: white;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+/* Только для оформления сетки */
+  min-height: 330px;
 }
 
 .index-content-left-title {
@@ -40,11 +115,26 @@
   color: black;
 }
 
+.index-content-left-title-time {
+  font-size: 14px;
+  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  color: black;
+}
+
 .index-content-left-title-btn {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
+  background: black;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+/* Только для оформления сетки */
+  min-height: 330px;
 }
 
 .index-content-right-title {
@@ -59,6 +149,7 @@
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
+  background: black;
 }
 
 .index-content-right-gallery-btn-next {
@@ -66,6 +157,7 @@
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
+  background: black;
 }
 
 .index-content-left-contact {
@@ -87,6 +179,7 @@
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
+  background: black;
 }
 
 .index-content-left-contact-feedback-btn {
@@ -94,6 +187,7 @@
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
+  background: black;
 }
 
 .index-content-right-title {
@@ -110,67 +204,118 @@
   color: black;
 }
 
-.index-content {
+.index-content-item {
+  float: left;
+  width: 960px;
   font-size: 30px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.index-content-title {
+.index-content-item-title {
+  float: left;
+  width: 960px;
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.card-info-status {
+.cards {
+  float: left;
+  width: 720px;
+}
+
+.card {
+  float: left;
+  margin-right: 20px;
+  width: 220px;
+  min-height: 287px;
+}
+
+.card-item {
+  width: 960px;
+}
+
+.card-picture {
+  width: 480px;
+  float: left;
+}
+
+.card-picture-png {
+  margin: -6px;
+}
+
+.card-picture-png:last-child {
+  margin-right: 0;
+}
+
+.card-info {
+  width: 410px;
+  float: left;
+}
+
+.card-info-description {
+  float: right;
+}
+
+.card-info-description-status {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.card-info-code {
+.card-info-description-code {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: #aeaeae;
 }
 
-.card-info-text {
+.card-info-description-text {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.card-price-total-btn {
+.card-info-price-total-btn {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.card-price-buy-btn {
+.card-info-price-buy-btn {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
 }
 
-.card-description-into {
+.card-info-set {
+
+}
+
+.card-info-set-into {
   font-size: 24px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.card-description-into-items {
+.card-info-set-into-items {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
+}
+
+.filter {
+  float: left;
+  width: 220px;
 }
 
 .index-content-brand {
@@ -208,25 +353,19 @@
   color: white;
 }
 
-.cards-text {
+.card-category {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
 }
 
-.cards-total-btn {
+
+.card-title {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: black;
-}
-
-.cards-buy-btn {
-  font-size: 14px;
-  font-family: PT Sans Narrow Bold;
-  font-weight: bold;
-  color: white;
 }
 
 .pages-btn {
@@ -236,6 +375,19 @@
   color: white;
 }
 
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+/* Только для оформления сетки */
+  min-height: 90px;
+}
 
 .footer-contacts-text {
   font-size: 14px;
@@ -244,11 +396,25 @@
   color: white;
 }
 
+.footer-social {
+  float: left;
+  width: 180px;
+/* Только для оформления сетки */
+  min-height: 90px;
+}
+
 .footer-social-text {
   font-size: 14px;
   font-family: PT Sans Narrow Bold;
   font-weight: bold;
   color: white;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+/* Только для оформления сетки */
+  min-height: 90px;
 }
 
 .footer-copyright-text {
